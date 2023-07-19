@@ -145,5 +145,45 @@ img {
 
 
 /* responsive section start */
+/* mobile-l device start */
+@media screen and (max-width: 425px) {
+    .nav_main {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .menu {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 1.8rem;
+    }
+
+    .social {
+        margin-top: 3.8rem;
+    }
+
+    .menu a {
+        margin-right: 0;
+    }
+
+    .nav_margin {
+        margin-bottom: 1.25rem;
+    }
+}
+/* mobile-l device end */
+
+/* tablet device start */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .nav_main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 1.8rem;
+    }
+}
+/* tablet device end */
 /* responsive section end */
