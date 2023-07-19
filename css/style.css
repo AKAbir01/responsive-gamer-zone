@@ -395,8 +395,42 @@ header {
 }
 /* games video end */
 
-/*  */
-/*  */
+/* feature one start */
+#feature_one {
+    margin-top: 7.5rem;
+}
+
+.feature_one_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature_one_content {
+    text-align: right;
+    margin-left: 7.5rem;
+}
+
+.feature_one_content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature_one_content .title {
+    margin-bottom: 1.5rem;
+}
+
+.feature_one_img {
+    position: relative;
+}
+
+.talking_tom {
+    position: absolute;
+    left: -143px;
+    bottom: -75px;
+}
+/* feature one end */
 /* main end */
 
 
@@ -412,7 +446,7 @@ header {
         text-align: center;
     }
 
-    .menu, .gamer_main {
+    .menu, .gamer_main, .feature_one_main {
         flex-direction: column;
     }
 
@@ -449,9 +483,9 @@ header {
     .banner_content {
         width: 25rem;
         padding: 1rem;
-        background-size:contain;
+        background-size: contain;
         text-align: center;
-        margin-left: -13px;
+        margin-left: 4px;
         margin-top: 20px;
     }
 
@@ -509,12 +543,37 @@ header {
     .video p {
         text-align: center;
     }
+
+    .feature_one_content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .feature_one_content .txt {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .feature_one_img {
+        width: 24rem;
+        margin-left: 33px;
+    }
+
+    .feature_one_img .cowboy {
+        width: 100%;
+    }
+
+    .talking_tom {
+        width: 50%;
+        left: -18px;
+        bottom: -61px;
+    }
 }
 /* mobile-l device end */
 
 /* tablet device start */
 @media screen and (min-width: 426px) and (max-width: 768px) {
-    .nav_main, .gamer_main {
+    .nav_main, .gamer_main, .feature_one_main {
         flex-direction: column;
         text-align: center;
     }
@@ -573,6 +632,26 @@ header {
     .video_box img {
         width: 100%;
         height: 100%;
+    }
+
+    .feature_one_content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .feature_one_content .txt {
+        margin-top: 35px;
+        margin-bottom: 93px;
+    }
+
+    .cowboy {
+        width: 90%;
+    }
+
+    .talking_tom {
+        width: 40%;
+        left: -43px;
+        bottom: -60px;
     }
 }
 /* tablet device end */
