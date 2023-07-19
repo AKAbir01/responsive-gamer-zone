@@ -182,14 +182,19 @@ header {
 /* main start */
 /* banner start */
 #banner {
-    background: url(../images/Group\ 14.png)no-repeat;
+    /* background: url(../images/Group\ 14.png)no-repeat; */
 }
 
 .banner_main {
     display: flex;
-    padding-top: 1rem;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner_content {
+    background: url(../images/Group\ 14.png);
+    width: 56.3125rem;
+    padding: 9.25rem 16.5rem 9.25rem 15.25rem;
 }
 
 .banner_content h2 {
@@ -223,6 +228,12 @@ header {
 
 .banner_icons_main i {
     width: 1.5rem;
+}
+
+.banner_img {
+    margin-top: 1rem;
+    margin-right: 14.47rem;
+    width: 44.96538rem;
 }
 
 .btn_blue {
@@ -269,6 +280,10 @@ header {
 
     .nav_margin {
         margin-bottom: 1.25rem;
+    }
+
+    .banner_main {
+        flex-direction: column-reverse;
     }
 }
 /* mobile-l device end */
